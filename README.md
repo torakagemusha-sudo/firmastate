@@ -2,6 +2,18 @@
 
 A governed graph-native IDE for authoring, validating, simulating, and deterministically exporting executable state machines with capability-typed effects.
 
+### Now Live !!
+
+### Preview available on emergent
+
+### @ https://polish-pass-2.emergent.host
+
+**Note: Paid subscriptions are not live yet, have a look around in free mode and feel free to email firmastate@torafirma.com or support@torafirma.com for any suppourt related queries**
+
+**Apologies for the delays, I am currently managing over 70 projects!!**
+
+** Lots of good things to come**
+
 > Visual graph. Canonical DSL. Controlled execution. Deterministic TypeScript export.
 ---
 
