@@ -4,9 +4,9 @@ A governed graph-native IDE for authoring, validating, simulating, and determini
 
 ### Now Live !!
 
-### Preview available on emergent
+[![Website Status](https://img.shields.io/website?url=https%3A%2F%2Ffirmastate-ide.app&label=firmastate-ide.app&up_message=online&down_message=offline)](https://firmastate-ide.app)
 
-### @ https://polish-pass-2.emergent.host
+### @ https://firmastate-ide.app
 
 **Note: Paid subscriptions are not live yet, have a look around in free mode and feel free to email firmastate@torafirma.com or support@torafirma.com for any support related queries. For commercial enquiries please direct them to admin@torafirma.com**
 
