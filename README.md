@@ -10,8 +10,6 @@ A governed graph-native IDE for authoring, validating, simulating, and determini
 
 **Note: Paid subscriptions are not live yet, have a look around in free mode and feel free to email firmastate@torafirma.com or support@torafirma.com for any support related queries. For commercial enquiries please direct them to admin@torafirma.com**
 
-**Apologies for the delays, I am currently managing over 70 projects!!**
-
 **Lots of good things to come....**
 
 > Visual graph. Canonical DSL. Controlled execution. Deterministic TypeScript export.
