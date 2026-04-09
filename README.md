@@ -8,6 +8,8 @@ A governed graph-native IDE for authoring, validating, simulating, and determini
 
 ### @ https://firmastate-ide.app
 
+> **We apologise for the system being unavailable** — it went through some issues coming online, but hosting is now sorted out. Please explore, have a play, and if you have any issues or concerns don't hesitate to send an email or [lodge an issue here](https://github.com/torakagemusha-sudo/firmastate/issues).
+
 **Note: Paid subscriptions are not live yet, have a look around in free mode and feel free to email firmastate@torafirma.com or support@torafirma.com for any support related queries. For commercial enquiries please direct them to admin@torafirma.com**
 
 **Lots of good things to come....**
@@ -288,7 +290,7 @@ FirmaState is built around a single canonical model layer. All surfaces — grap
 
 FirmaState is currently available as a hosted preview. No installation is required.
 
-1. Open **https://polish-pass-2.emergent.host** in your browser
+1. Open **https://firmastate-ide.app** in your browser
 2. Create a new machine or load a template from the template library
 3. Author states and transitions in the graph editor or DSL editor
 4. Declare any capabilities your machine requires in the Capabilities panel
@@ -481,7 +483,7 @@ The source code is not yet published. Open-sourcing the runtime library is on th
 
 FirmaState is not yet accepting code contributions — the codebase is not publicly available. Contributions of the following kinds are very welcome:
 
-- **Bug reports and UX feedback** — use the preview at https://polish-pass-2.emergent.host and report issues to support@torafirma.com
+- **Bug reports and UX feedback** — use the preview at https://firmastate-ide.app and report issues to support@torafirma.com
 - **Feature requests** — describe the machine authoring or export workflow you need
 - **DSL feedback** — if the current DSL shape is unclear or missing constructs, open an issue or email the team
 - **Template contributions** — if you have a well-designed machine pattern you'd like added to the template library, get in touch
