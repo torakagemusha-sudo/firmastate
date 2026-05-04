@@ -34,11 +34,12 @@ If you want to **design your own systems** outside the hosted IDE, **[tf-design-
 6. [Design principles](#design-principles)
 7. [Getting started](#getting-started)
 8. [DSL reference](#dsl-reference)
-9. [Roadmap](#roadmap)
-10. [FAQ](#faq)
-11. [Glossary](#glossary)
-12. [Project scope and feedback](#project-scope-and-feedback)
-13. [Contact](#contact)
+9. [Planned features (in development)](#planned-features-in-development)
+10. [Roadmap](#roadmap)
+11. [FAQ](#faq)
+12. [Glossary](#glossary)
+13. [Project scope and feedback](#project-scope-and-feedback)
+14. [Contact](#contact)
 
 ---
 
@@ -385,6 +386,17 @@ effect <name> {
   input: { <key>: <type> }
 }
 ```
+
+---
+
+## Planned features (in development)
+
+These directions are **actively in design and implementation**. They will not ship to the hosted IDE until behaviour, authoring experience, and export contracts meet our bar — we prefer **no rushed updates** over releasing something half-formed.
+
+- **Nested state machines** — treat machines as composable units inside a parent model, with clear rules for events, context, and simulation across boundaries.
+- **Sub-graphs and meta-graphs** — nested graph views and higher-level meta-graphs so large or layered systems stay legible without flattening everything onto one canvas.
+- **Shared workspaces** — team-oriented spaces to organise machines and collaborate (aligned with the team / enterprise paid tier when it launches).
+- **Capabilities and effects (rework)** — a revised authority and effect model so permissions stay explicit, auditable, and predictable as machines and teams scale.
 
 ---
 
