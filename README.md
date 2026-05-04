@@ -8,11 +8,9 @@ A governed graph-native IDE for authoring, validating, simulating, and determini
 
 ### @ https://firmastate-ide.app
 
-> **We apologise for the system being unavailable** — it went through some issues coming online, but hosting is now sorted out. Please explore, have a play, and if you have any issues or concerns don't hesitate to send an email or [lodge an issue here](https://github.com/torakagemusha-sudo/firmastate/issues).
+The IDE is **live** at the link above. There will **always** be a **free** level: author and simulate machines with **in-browser memory** (your work stays in this browser until you clear site data or use another device). **Paid features** (when they ship) will be **team- and enterprise-focused** — collaboration, administration, and commercial deployment — not paywalls on core authoring for individuals. Paid subscriptions are not live yet. Email **firmastate@torafirma.com** or **support@torafirma.com** for support, or **admin@torafirma.com** for commercial enquiries. For bugs or feature ideas, [open an issue](https://github.com/torakagemusha-sudo/firmastate/issues).
 
-**Note: Paid subscriptions are not live yet, have a look around in free mode and feel free to email firmastate@torafirma.com or support@torafirma.com for any support related queries. For commercial enquiries please direct them to admin@torafirma.com**
-
-**Lots of good things to come....**
+If you want to **design your own systems** outside the hosted IDE, **[tf-design-v2](https://github.com/torakagemusha-sudo/tf-design-v2)** is available for anyone to use.
 
 > Visual graph. Canonical DSL. Controlled execution. Deterministic TypeScript export.
 
@@ -36,11 +34,12 @@ A governed graph-native IDE for authoring, validating, simulating, and determini
 6. [Design principles](#design-principles)
 7. [Getting started](#getting-started)
 8. [DSL reference](#dsl-reference)
-9. [Roadmap](#roadmap)
-10. [FAQ](#faq)
-11. [Glossary](#glossary)
-12. [Contributing](#contributing)
-13. [Contact](#contact)
+9. [Planned features (in development)](#planned-features-in-development)
+10. [Roadmap](#roadmap)
+11. [FAQ](#faq)
+12. [Glossary](#glossary)
+13. [Project scope and feedback](#project-scope-and-feedback)
+14. [Contact](#contact)
 
 ---
 
@@ -288,7 +287,7 @@ FirmaState is built around a single canonical model layer. All surfaces — grap
 
 ## Getting started
 
-FirmaState is currently available as a hosted preview. No installation is required.
+FirmaState is available as a hosted app. No installation is required.
 
 1. Open **https://firmastate-ide.app** in your browser
 2. Create a new machine or load a template from the template library
@@ -298,7 +297,7 @@ FirmaState is currently available as a hosted preview. No installation is requir
 6. Run a simulation: fire events, step through transitions, inspect the trace
 7. When satisfied, export deterministic TypeScript from the Export panel
 
-The preview is available in free mode. Paid tiers (additional machine slots, team collaboration, private machines, and extended simulation history) are planned and will be announced via the contact addresses below.
+The **free level** uses **in-browser memory** for your machines in this session and on this device; that no-cost access is permanent for individual use. **Paid** capabilities when they launch will focus on **teams and enterprises** (for example workspaces, sharing, administration, and extended commercial features). Announcements will go through the contact addresses below.
 
 ---
 
@@ -390,6 +389,17 @@ effect <name> {
 
 ---
 
+## Planned features (in development)
+
+These directions are **actively in design and implementation**. They will not ship to the hosted IDE until behaviour, authoring experience, and export contracts meet our bar — we prefer **no rushed updates** over releasing something half-formed.
+
+- **Nested state machines** — treat machines as composable units inside a parent model, with clear rules for events, context, and simulation across boundaries.
+- **Sub-graphs and meta-graphs** — nested graph views and higher-level meta-graphs so large or layered systems stay legible without flattening everything onto one canvas.
+- **Shared workspaces** — team-oriented spaces to organise machines and collaborate (aligned with the team / enterprise paid tier when it launches).
+- **Capabilities and effects (rework)** — a revised authority and effect model so permissions stay explicit, auditable, and predictable as machines and teams scale.
+
+---
+
 ## Roadmap
 
 The following areas are under active development. Priority and scope may change.
@@ -405,7 +415,7 @@ The following areas are under active development. Priority and scope may change.
 ### Medium term
 
 - [ ] Team workspaces and machine sharing
-- [ ] Paid tier: private machines, extended simulation history, team collaboration
+- [ ] Team / enterprise tier: private machines, extended simulation history, collaboration, and administration
 - [ ] Git integration — commit DSL directly to a repository from the IDE
 - [ ] Guard expression editor with type-aware autocomplete
 - [ ] Action function scaffolding — generate typed stubs for all declared actions
@@ -414,8 +424,7 @@ The following areas are under active development. Priority and scope may change.
 
 ### Longer term
 
-- [ ] Open-source runtime library (independent of the IDE)
-- [ ] Self-hosted / on-premises deployment option
+- [ ] Self-hosted / on-premises options (primarily for enterprise customers)
 - [ ] Plugin / extension API
 - [ ] Machine testing framework — replay traces as assertions
 - [ ] Visual diff of two machine versions
@@ -444,10 +453,10 @@ The DSL is intentionally minimal and mirrors the structure of the graph. If you 
 JSON import is supported. XState v4/v5 machine definitions can often be imported with minor adjustments (on the roadmap: first-class XState import). DSL import is supported for FirmaState DSL files.
 
 **Does FirmaState work offline?**
-The current hosted preview requires an internet connection. A self-hosted / offline option is on the longer-term roadmap.
+The hosted app requires an internet connection. A self-hosted / offline option is on the longer-term roadmap.
 
 **Is the source code available?**
-The source code is not yet published. Open-sourcing the runtime library is on the roadmap. The IDE itself will likely remain proprietary with a generous free tier.
+No. FirmaState is **not** an open project: the IDE and service codebases are **not** published for outside contribution. There will **always** be a free level of the hosted app; **paid** offerings are aimed at **teams and enterprises**. To design or document your own systems without the IDE, use **[tf-design-v2](https://github.com/torakagemusha-sudo/tf-design-v2)**.
 
 ---
 
@@ -479,16 +488,16 @@ The source code is not yet published. Open-sourcing the runtime library is on th
 
 ---
 
-## Contributing
+## Project scope and feedback
 
-FirmaState is not yet accepting code contributions — the codebase is not publicly available. Contributions of the following kinds are very welcome:
+FirmaState is a **closed** product: the implementation is **not** open source and this repository does **not** accept code or content contributions (no pull requests for product code, templates, or docs from the public).
 
-- **Bug reports and UX feedback** — use the preview at https://firmastate-ide.app and report issues to support@torafirma.com
-- **Feature requests** — describe the machine authoring or export workflow you need
-- **DSL feedback** — if the current DSL shape is unclear or missing constructs, open an issue or email the team
-- **Template contributions** — if you have a well-designed machine pattern you'd like added to the template library, get in touch
+Feedback is still welcome:
 
-When the runtime library is open-sourced (see roadmap), a contribution guide will be published in this repository.
+- **Bugs and UX** — use the app at https://firmastate-ide.app, then email **support@torafirma.com** or [open an issue](https://github.com/torakagemusha-sudo/firmastate/issues) in this repo for tracking.
+- **Feature ideas** — email **firmastate@torafirma.com** or **support@torafirma.com** with the workflow you need.
+
+For **your own system design** materials, see **[tf-design-v2](https://github.com/torakagemusha-sudo/tf-design-v2)** (available separately for anyone to use).
 
 ---
 
@@ -506,9 +515,9 @@ Issues and discussions can also be opened in this GitHub repository.
 
 ## Current status
 
-FirmaState is under active development. The current preview demonstrates the core machine model, graph/DSL synchronization, controlled simulation, capabilities and effects surface, and deterministic TypeScript export.
+The hosted IDE is **up and running**. FirmaState remains under active development; the live app already demonstrates the core machine model, graph/DSL synchronization, controlled simulation, capabilities and effects surface, and deterministic TypeScript export. The product is **not** open source; there is a **permanent free** level for individuals, with **team / enterprise** features reserved for paid tiers when they launch.
 
-APIs, UX details, and runtime contracts may evolve before the first public release.
+APIs, UX details, and runtime contracts may evolve before the first stable release.
 
 ---
 
