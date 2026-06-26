@@ -11,3 +11,7 @@ README: closed-product positioning (no contributions); permanent free level; pai
 ## 2026-05-04T04:52:47Z
 
 README: added Planned features (in development) — nested machines, sub/meta graphs, shared workspaces, reworked capabilities/effects; quality-before-ship note.
+
+## 2026-06-26T09:13:08Z
+
+Security scan: repository contains only README.md and devlog.md (no application source code). No vulnerabilities to report.
